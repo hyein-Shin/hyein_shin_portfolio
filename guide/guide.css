@@ -1,0 +1,39 @@
+*{margin:0; padding:0;}
+ul{list-style:none; 
+position:fixed;
+bottom:50px;
+right:50px;
+text-align:center;}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    display: block;       
+    font-size: 24px;
+}
+.moon_btn li a{   
+    background: #fbb040 center;
+    width: 80px;
+    height: 80px;
+    line-height: 75px;
+    border-radius: 40px;  
+    color: #f9f8ed;
+    text-align: center;    
+}
+.fiture_btn li a{
+    background-color: #f2dac4;
+    width: 80px;
+    line-height: 75px;
+    height: 80px;
+    border: 10px solid black;    
+}
+.fiture_btn li a:hover{
+    background-color: #7a8262;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+a{text-decoration:none; color:#fff;}
+img{width:60%;}
